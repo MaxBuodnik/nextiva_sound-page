@@ -1,0 +1,74 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "Author": "Viktor Wooten",
+      "Album": "Palmystery",
+      "Label": "Heads Up",
+      "Genre": "Fusion, Jazz",
+      "Year": 2008,
+      "Format": "FLAC (tracks) / MP3",
+      "Bitrate": "Lossless / 320",
+      "Duration": "65:39",
+      "Size": "437 MB. / 157 MB.",
+      "Image": "http://www.jazzsound.ru/uploads/posts/2012-04/thumbs/1333595759_500.jpg",
+      "Tracks": [
+        "1. 2 Timers [4:51]",
+        "2. Cambo [5:25]",
+        "3. I Saw God [4:20]",
+        "4. The Lesson [5:55]",
+        "5. Left, Right, & Center [7:11]",
+        "6. Sifu [7:36]",
+        "7. Miss U [4:33]",
+        "8. Flex [6:37]",
+        "9. The Gospel [6:40]",
+        "10. Song For My Father [5:18]",
+        "11. Happy Song [4:23]",
+        "12. Us 2 [2:58]"
+      ],
+      "Video": "https://youtu.be/fKywYYwwXdM"
+    },
+    {
+      "id": 2,
+      "Author": "Jeff Richman",
+      "Album": "Aqua",
+      "Label": "Jeff Richman Rec",
+      "Genre": "Fusion, Jazz",
+      "Year": 2008,
+      "Format": "FLAC (tracks) / MP3",
+      "Bitrate": "Lossless / 320",
+      "Duration": "56:29",
+      "Size": "359 MB. / 127 MB.",
+      "Image": "http://jazzsound.ru/uploads/posts/2011-02/thumbs/1296898792_500.jpg",
+      "Tracks": [
+
+      ]
+    },
+    {
+      "id": 3,
+      "Author": "Joe Mensah",
+      "Album": "Cry Laughter",
+      "Label": "Soundway Records",
+      "Genre": "Funk, Soul, World",
+      "Year": 2016,
+      "Format": "FLAC (tracks)",
+      "Bitrate": "Lossless",
+      "Duration": "34:53",
+      "Size": "197 MB.",
+      "Image": "http://jazzsound.ru/uploads/posts/2016-07/thumbs/1467374352_500jm.jpg"
+    },
+    {
+      "id": 4,
+      "Author": "Scott Hamilton",
+      "Album": "Ballads For Audiophiles",
+      "Label": "Fone Records",
+      "Genre": "Funk",
+      "Year": 2017,
+      "Format": "DSD 64",
+      "Bitrate": "(2,8 MHz/1 Bit)",
+      "Duration": "59:22",
+      "Size": "2.34 GB.",
+      "Image": "http://jazzsound.ru/uploads/posts/2017-05/thumbs/1496044733_scott-hamilton-ballads-for-audiophiles.jpg"
+    }
+  ]
+}

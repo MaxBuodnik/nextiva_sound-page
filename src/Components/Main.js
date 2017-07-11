@@ -7,9 +7,9 @@ class Albums extends Component {
   render() {
     return (
       <div className='albumView'>
-        <div className="upperBlock" onClick={this.props.handleSearch}>
-          <Link to="/albumview">
-            <h4 style={{textAlign: 'center'}}>{this.props.author} - {this.props.album}</h4>
+        <div className="upperBlock">
+          <Link to="/albumview" onClick={this.props.handleSearch}>
+            <h4 style={{textAlign: 'center'}} id={this.props.id}>{this.props.author} - {this.props.album}</h4>
           </Link>
         </div>
         <div className="downBlock">
@@ -40,14 +40,15 @@ export default class Main extends Component {
       store.dispatch({type: 'SHOW_ALBUM', payload: [album]});
     }
 
-    const handleSearch = () => {
+    const handleSearch = (e) => {
 
-      const searchQuery = 1;
+      const searchQuery = Number(e.target.id);
 
-      let displayedUsers = albumsStore.filter((al) => {
+      const displayedAlbums = albumsStore.filter((al) => {
         return al.id === searchQuery
       });
-      showShosenAlbum(displayedUsers);
+      showShosenAlbum(displayedAlbums);
+      console.log(searchQuery, 'searchQuery')
     }
 
 
